@@ -1,0 +1,27 @@
+.container-notice{
+    
+    background-color: #BAC8D9;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 80px ;
+    color: rgb(6, 12, 30);
+     
+}
+.container-notice:hover{
+    opacity:55%;
+
+
+}
+.title-notice{
+text-align: center;
+font-size: 1.2em;
+}
+.area-information{
+    font-size: 1rem;
+    
+}
+.text-information{
+ text-overflow: ellipsis;
+ overflow: hidden;
+ font-size: 2ch;
+}
