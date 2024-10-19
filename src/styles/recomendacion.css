@@ -1,0 +1,15 @@
+.sub-text{
+    text-align: center;
+    font-size: 1.5em;
+    
+}
+.enlace-text{
+    display: none;
+}
+.enlace-text:active{
+
+    opacity: 1.5px;
+    text-align: left;
+
+
+}

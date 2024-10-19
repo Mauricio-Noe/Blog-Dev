@@ -10,9 +10,7 @@ function Informacion (props) {
         <p className='title-notice'>
           <strong>{props.nombre}</strong>
         </p>
-        <p className='area-information '>
-          {props.area}
-        </p>
+        
         <p className='text-information'>{props.informacion}</p>
       </div>
     </div>

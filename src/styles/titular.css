@@ -8,5 +8,6 @@
     margin: 25px;
     box-shadow:6px  0 30px rgba(55, 119, 110, 0.5);
     overflow: hidden;
+    text-overflow: ellipsis;
 
   }
