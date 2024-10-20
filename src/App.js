@@ -2,8 +2,7 @@ import './App.css';
 import Navbar from './componentes/navbar.js';
 import Informacion from './componentes/informacion.jsx';
 import Titular from './componentes/titular.jsx';
-import Comunicado from './componentes/recomendacion.jsx';
-import Elaceocultoyclick from './componentes/recomendacion.jsx';
+import RecomendacionEnlace from './componentes/recomendacion.jsx';
 
 function App() {
   return (
@@ -66,7 +65,7 @@ function App() {
        </div>
         
        <div className='apartado-comunicado'>
-          <Comunicado />
+          <RecomendacionEnlace/>
 
 
        </div>

@@ -22,12 +22,26 @@ padding-top: 25px;
 
 }
 .apartado-comunicado{
-  background-color: #577877;
+  /*background-color: #577877;
   width: auto;
   height: 200px;
   margin-top: 35px;
-  
+  */
+    background-color: #577877; /* Color de fondo */
+    width:auto; /* Puedes especificar un ancho fijo si lo prefieres */
+    height: 200px; /* Altura del contenedor */
+    margin-top: 35px; /* Espacio superior */
+    padding: 20px; /* Espacio interno */
+    position: relative; /* Asegura que los hijos se posicionen correctamente */
+    color: white; /* Cambia el color del texto si es necesario */
+    display: flex; /* Flexbox para alinear elementos */
+    flex-direction: column; /* Alinea los elementos en columna */
+    justify-content: center; /* Centra verticalmente */
+    align-items: center; /* Centra horizontalmente */
 }
+
+
+
 .App-navbar{
 
 }

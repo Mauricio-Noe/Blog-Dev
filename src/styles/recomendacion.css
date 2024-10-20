@@ -3,13 +3,54 @@
     font-size: 1.5em;
     
 }
-.enlace-text{
-    display: none;
+
+/*
+
+.container-reco {
+    position: relative;
+    transition: opacity 0.3s ease; /* Transición suave para la opacidad */
+/*}
+/*
+.container-reco:hover {
+    opacity: .7; /* Opaque al hacer hover */
+/*}
+
+/*.link-reco {
+    display: none; /* Oculta el enlace inicialmente */
+  /*  bottom: 10px; /* Ajusta según sea necesario */
+     /* Ajusta según sea necesario */
+    /*color: blue; /* Cambia el color del enlace */
+    /*text-decoration: underline; /* Subraya el enlace */
+/*    text-align: right;
+    z-index: 1;
+    position: absolute;
 }
-.enlace-text:active{
 
-    opacity: 1.5px;
-    text-align: left;
+.container-reco:hover .link-reco {
+    display: block; /* Muestra el enlace al hacer hover */
+/*}
+*/
+.container-reco {
+    position: relative;
+    transition: opacity 0.3s ease; /* Transición suave para la opacidad */
+}
 
+.container-reco:hover {
+    opacity: 0.7; /* Opaque al hacer hover */
+}
 
+.link-reco {
+    padding-top: 0%;
+    opacity: 0; /* Oculta el enlace inicialmente */
+    transition: opacity 0.3s ease; /* Transición suave para el enlace */
+    position: absolute; /* Posiciona el enlace dentro del contenedor */
+    bottom: 10px; /* Ajusta según sea necesario */
+    right: 10PX;
+    color:#e7ebea; /* Cambia el color del enlace */
+    text-decoration:none; /* Subraya el enlace */
+    z-index: 1; /* Asegura que el enlace esté por encima de otros elementos */
+}
+
+.container-reco:hover .link-reco {
+    opacity: 1; /* Muestra el enlace al hacer hover */
 }
