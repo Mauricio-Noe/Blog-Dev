@@ -32,25 +32,25 @@
 */
 .container-reco {
     position: relative;
-    transition: opacity 0.3s ease; /* Transición suave para la opacidad */
+    transition: opacity 0.3s ease; 
 }
 
 .container-reco:hover {
-    opacity: 0.7; /* Opaque al hacer hover */
+    opacity: 0.7; 
 }
 
 .link-reco {
     padding-top: 0%;
-    opacity: 0; /* Oculta el enlace inicialmente */
-    transition: opacity 0.3s ease; /* Transición suave para el enlace */
+    opacity: 0; 
+    transition: opacity 0.3s ease; 
     position: absolute; /* Posiciona el enlace dentro del contenedor */
-    bottom: 10px; /* Ajusta según sea necesario */
+    bottom: 10px; 
     right: 10PX;
-    color:#e7ebea; /* Cambia el color del enlace */
-    text-decoration:none; /* Subraya el enlace */
-    z-index: 1; /* Asegura que el enlace esté por encima de otros elementos */
+    color:#e7ebea; 
+    text-decoration:none; 
+    z-index: 1; 
 }
 
 .container-reco:hover .link-reco {
-    opacity: 1; /* Muestra el enlace al hacer hover */
+    opacity: 1; 
 }

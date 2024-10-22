@@ -17,12 +17,12 @@
     display:flex;
     text-decoration: none;
     color: cornsilk;
-    gap: 92px; /* Espacio entre elementos en escritorio */
+    gap: 92px;  
     margin-right: 15px;
   }
   
   .opciones-navbar.active {
-    display: flex; /* Asegúrate de que se muestre como flex en modo activo */
+    display: flex; 
   }
   .activacion{
     display: none;
@@ -35,26 +35,26 @@
   
   @media (max-width: 794px) {
     .opciones-navbar {
-      display: none; /* Oculta las opciones por defecto */
-       /* Espacio reducido en pantallas pequeñas */
+      display: none; 
+      
     }
   
     .opciones-navbar.active {
-      display: flex; /* Muestra las opciones cuando está activo */
+      display: flex; 
       flex-direction: column;
       gap: 20px;  
     
     }
   
     .navbar-blog {
-      flex-direction: column; /* Cambia a columna para mejor disposición */
-      align-items: center; /* Centra los elementos */
+      flex-direction: column; 
+      align-items: center; 
     }
   
     .activacion {
       display: block;
       cursor: pointer;
-      margin-bottom: 10px; /* Espacio debajo del botón */
+      margin-bottom: 10px; 
     }
   }
   
