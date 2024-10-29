@@ -1,0 +1,33 @@
+.grid{
+  flex: 1;
+  height: 500px;
+  width: 900px;
+  display: flex; 
+  margin: 3%;
+  gap: 4%;
+}
+.bento-left{
+flex: 1;
+display: flex;
+flex-direction: column;
+gap: 1em;
+}
+
+.bento-rigt{
+ flex: 1;
+ display: flex;
+ flex-direction: column;
+ gap: 5em;
+ width: 50px;
+
+
+}
+.bento{
+flex: 1;
+border-radius: 1em;
+background-color:#577877;
+display: flex;
+gap: 1em;
+transition: 0.2s ease-in-out;
+
+}

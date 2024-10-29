@@ -1,13 +1,19 @@
-  .container-titular {
-  
-    background-color: #577877;
-    display: flex;
-    justify-content: left;
-    width: 900px;
-    height: 450px;
-    margin: 25px;
-    box-shadow:6px  0 30px rgba(55, 119, 110, 0.5);
-    overflow: hidden;
-    text-overflow: ellipsis;
+.container-notice-titular {
+  display: flex;
+  flex: 2;
+  gap: 45px;
+  height: 450px; 
+  margin: 25px; 
+  box-shadow: 6px 0 30px rgba(55, 119, 110, 0.5);
+  overflow: hidden; 
+  text-overflow: ellipsis; 
+  border-radius: 8px; 
+  color: white; 
 
-  }
+}
+.title-notice-titular, .text-information-titular{
+align-items: center;
+justify-content: center;
+display: flex;
+
+}

@@ -1,8 +1,9 @@
 import './App.css';
-import Navbar from './componentes/navbar.js';
+import Navbar from './componentes/navbar.jsx';
 import Informacion from './componentes/informacion.jsx';
 import Titular from './componentes/titular.jsx';
 import RecomendacionEnlace from './componentes/recomendacion.jsx';
+import { Bentonoti } from './componentes/bento.jsx';
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
     </div>
     <div className='body-blog'>
       <div className='container-titular'>
-      <Titular 
+      
+       <Titular 
       nombre= 'Vulnerabilidad en las API ??? '
       informacion='<![CDATA[Tutoriales prácticos: Desde lo básico hasta técnicas avanzadas, para ayudarte a mejorar tus habilidades. 
         Consejos y trucos: Estrategias que he aprendido en mi carrera para optimizar tu flujo de trabajo. 
@@ -25,6 +27,7 @@ function App() {
     
       />
       </div>
+
       <div className='Container-Notice-Concern'> 
       <Informacion 
         nombre= 'DESARROLLADORES DESMPLEADOS POR IA!!'
@@ -69,6 +72,9 @@ function App() {
 
 
        </div>
+       <article  className='sect-bento'>
+        <Bentonoti />
+       </article>
       </div>
  </>
   ); 

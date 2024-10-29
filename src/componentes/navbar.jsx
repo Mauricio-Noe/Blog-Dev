@@ -15,13 +15,13 @@ const togglemenu = ()=>{
         blog-developer </div>
      <div className='activacion'onClick={togglemenu}> &#9776;</div>
        
-       <ll className={`opciones-navbar ${isabierta ? `active` :``}` }>
+       <li className={`opciones-navbar ${isabierta ? `active` :``}` }>
         <ul><a className='opc-nav' href='#'> Inicio</a> </ul>
         <ul><a className='opc-nav' href='#'> Notificacion</a> </ul>
         <ul><a className='opc-nav' href='#'> Cuenta</a> </ul>
         <ul><a className='opc-nav' href='#'> Salir</a> </ul>
        
-        </ll>
+        </li>
             
 
     
