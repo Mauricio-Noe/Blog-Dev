@@ -1,6 +1,6 @@
 import './App.css';
 import Navbar from './componentes/navbar.jsx';
-import Informacion from './componentes/informacion.jsx';
+import Informacion from './componentes/informacion.js';
 import Titular from './componentes/titular.jsx';
 import RecomendacionEnlace from './componentes/recomendacion.jsx';
 import { Bentonoti } from './componentes/bento.jsx';
@@ -30,6 +30,8 @@ function App() {
 
       <div className='Container-Notice-Concern'> 
       <Informacion 
+
+        imagen='recomendacion'
         nombre= 'DESARROLLADORES DESMPLEADOS POR IA!!'
         
         informacion=' La Revolución de la Inteligencia Artificial en el Desarrollo de Software 
@@ -38,6 +40,7 @@ function App() {
         '
       />
       <Informacion 
+      imagen= 'info'
         nombre= 'DESARROLLADORES DESMPLEADOS POR IA!!'
         
         informacion=' La Revolución de la Inteligencia Artificial en el Desarrollo de Software 
@@ -47,6 +50,7 @@ function App() {
         '
       />
       <Informacion 
+      imagen= 'info'
         nombre= 'DESARROLLADORES DESMPLEADOS POR IA!!'
         
         informacion=' La Revolución de la Inteligencia Artificial en el Desarrollo de Software 
@@ -54,17 +58,7 @@ function App() {
         
         '
       />
-      <Informacion 
-    
-        nombre= 'DESARROLLADORES DESMPLEADOS POR IA!!'
-        
-        informacion=' La Revolución de la Inteligencia Artificial en el Desarrollo de Software 
-        En los últimos años, la inteligencia artificial (IA) ha transformado numerosos sectores, y el desarrollo de software no es la excepción. 
-        
-        
-        
-        '
-      />
+      
        </div>
         
        <div className='apartado-comunicado'>
@@ -76,6 +70,8 @@ function App() {
         <Bentonoti />
        </article>
       </div>
+
+      
  </>
   ); 
   

@@ -1,19 +1,23 @@
 .container-notice{
-    background: #f8f8bb;
-     backdrop-filter: blur(0.5rem);
- 
-    align-items: center;
-    justify-content: center;
-    color: rgb(6, 12, 30);
-    width: 350px;
-    height: 300px;
-    border-radius: 4px;
+    background:linear-gradient(#577877 , #555) ;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 1.8ch;
+    width: 450px;
+    
+
     }
 .container-notice:hover{
     opacity:55%;
 
 
 }
+
+.img-info{
+width:100%;
+background:linear-gradient(#770606e1 , #557555) ; 
+}
+
 .title-notice{
 text-align: center;
 font-size: 1.2em;

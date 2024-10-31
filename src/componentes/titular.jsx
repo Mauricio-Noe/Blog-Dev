@@ -9,7 +9,7 @@ function Titular (props) {
       <div className='container-notice-titular'>
        <img
        className="img-titular"
-       src={require("../imagenes/img-titular.jpg")}
+       src={require("../imagenes/imagen-titular.jpg")}
 />        <div className="semi-section">
         <p className='title-notice-titular'>
           <strong>{props.nombre}</strong>

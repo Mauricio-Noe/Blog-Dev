@@ -15,8 +15,4 @@
                                 console.log("*".repeat(i));
 
                             }*/
-
-
-
-
-                                
+                               
