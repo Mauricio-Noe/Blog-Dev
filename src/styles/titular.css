@@ -1,19 +1,141 @@
-.container-notice-titular {
+/*.container-notice-titular {
   display: flex;
-  flex: 2;
   gap: 45px;
-  height: 450px; 
+  height: 450px;
+  width: 1800px; 
   margin: 25px; 
   box-shadow: 6px 0 30px rgba(55, 119, 110, 0.5);
-  overflow: hidden; 
-  text-overflow: ellipsis; 
   border-radius: 8px; 
-  color: white; 
-
+  color: white;
+  justify-content: center; 
+  align-items: center;    
 }
-.title-notice-titular, .text-information-titular{
-align-items: center;
-justify-content: center;
-display: flex;
 
+.container-img-titular,
+.container-text-titular {
+  width: 50%;  
+  height: 100%; 
+}
+
+.title-notice-titular {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2em;
+}
+
+.text-information-titular {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8ch;
+}
+.img-titular{
+ width: 790px;
+ background: linear-gradient(to rigth, #557758  );
+
+}*/
+/* Contenedor principal */
+.container-notice-titular {
+  display: flex;
+  gap: 45px;
+  height: 450px;
+  max-width: 100%; /* Adaptable a pantallas más pequeñas */
+  margin: 25px auto; /* Centramos horizontalmente */
+  box-shadow: 6px 8px 20px rgba(55, 119, 110, 0.3);
+  border-radius: 12px; /* Bordes ligeramente más redondeados */
+  color: white;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+}
+
+/* Efecto en hover para elevar el contenedor */
+.container-notice-titular:hover {
+  transform: translateY(-5px); /* Eleva el contenedor en hover */
+  box-shadow: 6px 15px 30px rgba(55, 119, 110, 0.4); /* Sombra más intensa */
+}
+
+/* Contenedores de imagen y texto */
+.container-img-titular,
+.container-text-titular {
+  width: 50%; /* Mitad del ancho del contenedor padre */
+  height: 100%; /* Ajusta el alto al de su contenedor padre */
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+/* Título */
+.title-notice-titular {
+  font-size: 1.6em; /* Tamaño de fuente más grande para mejor legibilidad */
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Información del texto */
+.text-information-titular {
+  font-size: 1.2em; /* Ajuste para mejor legibilidad */
+  line-height: 1.4; /* Espacio entre líneas para mayor claridad */
+  padding: 20px;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  opacity: 0.85;
+}
+
+/* Imagen con fondo y ajuste de tamaño */
+.img-titular {
+  width: 100%;
+  height: auto;
+  background: linear-gradient(to right, #557758, #193940);
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+/* Hover para la imagen */
+.container-img-titular:hover .img-titular {
+  transform: scale(1.05); /* Escala para efecto de zoom */
+}
+  @media (max-width: 758px) {
+    .container-notice-titular {
+      flex-direction: column;
+      height: auto;
+      padding: 20px;
+    }
+  
+    /* Ajusta el ancho de contenedores de imagen y texto */
+    .container-img-titular,
+    .container-text-titular {
+      width: 100%;
+      height: auto;
+    }
+  
+    /* Ajuste de fuente para pantallas pequeñas */
+    .title-notice-titular {
+      font-size: 1.4em;
+      padding: 8px;
+    }
+  
+    .text-information-titular {
+      font-size: 1em;
+      padding: 15px;
+      line-height: 1.5;
+    }
+  }
+  
+  /* Adicional: Hover Suave en Mobile */
+  @media (hover: hover) {
+    .container-notice-titular:hover {
+      transform: translateY(-3px);
+      box-shadow: 4px 12px 25px rgba(55, 119, 110, 0.4);
+    }
+  
+    .container-img-titular:hover .img-titular {
+      transform: scale(1.03);
+    } 
 }

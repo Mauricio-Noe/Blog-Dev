@@ -11,11 +11,15 @@ window.location.assign("sssssssssssss")
  return( 
     
 
-         <div className="container-reco" onClick={handeclick} >    
+   <div className="container-reco" onClick={handeclick} >    
+           <p className="titulo-reco">
+           <i><strong>Te recomiendo leer sobre buenas practicas al momento de usar el STYLES en tu proyecto ☺☺☺</strong></i>  
+            
+           </p>
                <p className="sub-text">
+          
+           Tutoriales prácticos: Desde lo básico hasta técnicas avanzadas, para ayudarte a mejorar tus habilidades. 
                  
-                 <i><strong>Te recomiendo leer sobre buenas practicas al momento de usar el STYLES en tu proyecto ☺☺☺</strong></i> </p> 
-                 <p>Tutoriales prácticos: Desde lo básico hasta técnicas avanzadas, para ayudarte a mejorar tus habilidades. 
         Consejos y trucos: Estrategias que he aprendido en mi carrera para optimizar tu flujo de trabajo. 
         Novedades del sector: Actualizaciones sobre las últimas tendencias y tecnologías que no te puedes perder. 
         Reflexiones personales: Mis experiencias y aprendizajes en el camino del desarrollo. 

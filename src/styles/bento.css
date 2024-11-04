@@ -1,33 +1,57 @@
-.grid{
-  flex: 1;
+.container-bento{
+display: grid;
+grid-template-columns: repeat(4, 1fr);
   height: 500px;
-  width: 900px;
-  display: flex; 
+  width: 1600px;
   margin: 3%;
   gap: 4%;
 }
 .bento-left{
-flex: 1;
-display: flex;
-flex-direction: column;
-gap: 1em;
+display: grid;
+   gap: 1em;
 }
 
 .bento-rigt{
- flex: 1;
- display: flex;
- flex-direction: column;
- gap: 5em;
- width: 50px;
-
+ display: grid;
+  gap: 1em;
+ 
 
 }
 .bento{
-flex: 1;
 border-radius: 1em;
 background-color:#577877;
-display: flex;
 gap: 1em;
 transition: 0.2s ease-in-out;
 
+}
+
+@media(max-width:758px ){
+
+  .container-bento{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+      height: 500px;
+      width: 500px;
+      margin: 3%;
+      gap: 4%;
+    }
+    .bento-left{
+    display: grid;
+       gap: 1em;
+    }
+    
+    .bento-rigt{
+     display: grid;
+      gap: 1em;
+     
+    
+    }
+    .bento{
+    border-radius: 1em;
+    background-color:#577877;
+    gap: 1em;
+    transition: 0.2s ease-in-out;
+    
+    }
+    
 }
