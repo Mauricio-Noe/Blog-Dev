@@ -27,4 +27,40 @@ font-size: 1.2em;
  overflow: hidden;
  font-size: 1.8ch;
  
+} 
+
+@media (max-width: 758px) {
+
+    .container-notice{
+        background:linear-gradient(#577877 , #555) ;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        font-size: 1.8ch;
+        width: 350px;
+        box-shadow: 6px 0 30px rgba(55, 119, 110, 0.5);
+        }
+    .container-notice:hover{
+        opacity:55%;
+        transform: translateY(-15px);
+    
+    }
+    
+    .img-info{
+    width:100%;
+    background:linear-gradient(#770606e1 , #557555) ; 
+    }
+    
+    .title-notice{
+    text-align: center;
+    font-size: 1.2em;
+    }
+     
+    .text-information{
+     text-overflow: ellipsis;
+     overflow: hidden;
+     font-size: 1.8ch;
+     
+    } 
+        
+    
 }
