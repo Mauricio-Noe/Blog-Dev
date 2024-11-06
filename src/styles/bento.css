@@ -11,7 +11,7 @@ display: grid;
    gap: 1em;
 }
 
-.bento-rigt{
+.bento-1{
  display: grid;
   gap: 1em;
  
@@ -31,7 +31,7 @@ transition: 0.2s ease-in-out;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
       height: 500px;
-      width: 500px;
+      width: 350px;
       margin: 3%;
       gap: 4%;
     }
@@ -40,9 +40,9 @@ transition: 0.2s ease-in-out;
        gap: 1em;
     }
     
-    .bento-rigt{
-     display: grid;
-      gap: 1em;
+    .bento-1{
+     display: none;
+      
      
     
     }
