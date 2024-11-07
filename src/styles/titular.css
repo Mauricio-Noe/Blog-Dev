@@ -42,7 +42,7 @@
   height: 450px;
   max-width: 100%; /* Adaptable a pantallas más pequeñas */
   margin: 25px auto; /* Centramos horizontalmente */
-  box-shadow: 6px 8px 20px rgba(55, 119, 110, 0.3);
+  box-shadow: 6px 10px 20px rgba(55, 119, 110, 0.3);
   border-radius: 12px; /* Bordes ligeramente más redondeados */
   color: white;
   justify-content: center;

@@ -13,8 +13,8 @@ function Informacion(props) {
         </p>
         
         <img className="img-info"
-                src={require(`../imagenes/imagen-${props.imagen}.jpg`)}
-
+                src={require(`../imagenes/informacion-${props.imagen}.jpg`)}
+        alt=" "
         />
         <p className='text-information'>{props.informacion}</p>
       </div>

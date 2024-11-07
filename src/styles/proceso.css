@@ -1,0 +1,8 @@
+.proceso{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient( #578777, #193940);
+    height: 50px;
+    
+}

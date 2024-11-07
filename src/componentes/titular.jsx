@@ -10,7 +10,7 @@ function Titular (props) {
        <div className="container-img-titular">
        <img
        className="img-titular"
-       src={require("../imagenes/imagen-titular.jpg")}
+       src={require("../imagenes-titular/imagen-titular1.jpg")}
         alt=" "        />       
        </div>
        

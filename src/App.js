@@ -4,6 +4,7 @@ import Informacion from './componentes/informacion.js';
 import Titular from './componentes/titular.jsx';
 import RecomendacionEnlace from './componentes/recomendacion.jsx';
 import { Bentonoti } from './componentes/bento.jsx';
+import { Proceso } from './componentes/proceso.jsx';
 
 function App() {
   return (
@@ -28,43 +29,28 @@ function App() {
       />
       </div>
 
+
+      <>      
+    
       <div className='Container-Notice-Concern'> 
+<Informacion 
+  imagen="desarrolloweb"
+  nombre="Los Mejores Consejos para Empezar en el Desarrollo Web"
+  informacion='Descubre los lenguajes y recursos esenciales para crear tu primer sitio web desde cero.'
+/>
       <Informacion 
-
-        imagen='recomendacion'
-        nombre= 'DESARROLLADORES DESMPLEADOS POR IA!!'
-        
-        informacion=' La Revolución de la Inteligencia Artificial en el Desarrollo de Software 
-        En los últimos años, la inteligencia artificial (IA) ha transformado numerosos sectores, y el desarrollo de software no es la excepción. 
-        
-        '
-      />
-      <Informacion 
-      imagen= 'info'
-        nombre= 'DESARROLLADORES DESMPLEADOS POR IA!!'
-        
-        informacion=' La Revolución de la Inteligencia Artificial en el Desarrollo de Software 
-        En los últimos años, la inteligencia artificial (IA) ha transformado numerosos sectores, y el desarrollo de software no es la excepción. 
-        
-        
-        '
-      />
-      <Informacion 
-      imagen= 'info'
-        nombre= 'DESARROLLADORES DESMPLEADOS POR IA!!'
-        
-        informacion=' La Revolución de la Inteligencia Artificial en el Desarrollo de Software 
-        En los últimos años, la inteligencia artificial (IA) ha transformado numerosos sectores, y el desarrollo de software no es la excepción. 
-        
-        '
-      />
-      
-      
-
-      
-
+  imagen="IA"
+  nombre="DESARROLLADORES DESEMPLEADOS POR IA!!"
+  informacion='La Revolución de la Inteligencia Artificial en el Desarrollo de Software.
+  En los últimos años, la inteligencia artificial (IA) ha transformado numerosos sectores, y el desarrollo de software no es la excepción.'
+/>
+<Informacion 
+  imagen="responsive"
+  nombre="Diseño Responsivo: ¿Por Qué es Tan Importante?"
+  informacion='Aprende cómo hacer que tus sitios web se vean increíbles en cualquier dispositivo.'
+/>
        </div>
-        
+         </>
        <div className='apartado-comunicado'>
           <RecomendacionEnlace/>
 
@@ -75,6 +61,10 @@ function App() {
        </article>
       </div>
 
+      <div className='proceso'>
+
+ <Proceso />
+      </div>
       
  </>
   ); 
