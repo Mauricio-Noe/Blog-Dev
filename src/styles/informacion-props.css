@@ -98,22 +98,20 @@ font-size: 1.2em;
 
 .text-information {
     text-overflow: ellipsis;
-    overflow: hidden;
     font-size: 1.8ch;
     flex-grow: 1;
 }
 
-/* Estilos para pantallas móviles */
 @media (max-width: 758px) {
     .container-notice {
         width: 100%;
-        max-width: 350px; /* Limitar el tamaño máximo */
-        min-height: 250px; /* Ajustar la altura mínima para dispositivos móviles */
+        max-width: 350px; 
+        min-height: 250px; 
     }
 
     .img-info {
         width: 100%;
-        height: 100%; /* Ajustar la imagen al tamaño del contenedor */
+        height: 100%; 
         background: linear-gradient(#770606e1, #557555);
     }
 

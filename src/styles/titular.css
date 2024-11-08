@@ -57,18 +57,16 @@
   box-shadow: 6px 15px 30px rgba(55, 119, 110, 0.4); /* Sombra más intensa */
 }
 
-/* Contenedores de imagen y texto */
 .container-img-titular,
 .container-text-titular {
-  width: 50%; /* Mitad del ancho del contenedor padre */
-  height: 100%; /* Ajusta el alto al de su contenedor padre */
+  width: 50%; 
+  height: 100%;
   overflow: hidden;
   border-radius: 8px;
 }
 
-/* Título */
 .title-notice-titular {
-  font-size: 1.6em; /* Tamaño de fuente más grande para mejor legibilidad */
+  font-size: 1.6em; 
   font-weight: bold;
   padding: 10px;
   text-align: center;
@@ -77,18 +75,15 @@
   align-items: center;
 }
 
-/* Información del texto */
 .text-information-titular {
-  font-size: 1.2em; /* Ajuste para mejor legibilidad */
-  line-height: 1.4; /* Espacio entre líneas para mayor claridad */
-  padding: 20px;
+  font-size: 1.2em;  
+  line-height: 1.4;   padding: 20px;
   text-align: center;
   overflow: hidden;
   text-overflow: ellipsis;
   opacity: 0.85;
 }
 
-/* Imagen con fondo y ajuste de tamaño */
 .img-titular {
   width: 100%;
   height: auto;
@@ -96,8 +91,6 @@
   border-radius: 8px;
   transition: transform 0.3s ease;
 }
-
-/* Hover para la imagen */
 .container-img-titular:hover .img-titular {
   transform: scale(1.05); /* Escala para efecto de zoom */
 }
@@ -108,14 +101,12 @@
       padding: 20px;
     }
   
-    /* Ajusta el ancho de contenedores de imagen y texto */
     .container-img-titular,
     .container-text-titular {
       width: 100%;
       height: auto;
     }
   
-    /* Ajuste de fuente para pantallas pequeñas */
     .title-notice-titular {
       font-size: 1.4em;
       padding: 8px;
@@ -128,7 +119,6 @@
     }
   }
   
-  /* Adicional: Hover Suave en Mobile */
   @media (hover: hover) {
     .container-notice-titular:hover {
       transform: translateY(-3px);

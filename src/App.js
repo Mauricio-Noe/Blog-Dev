@@ -4,7 +4,7 @@ import Informacion from './componentes/informacion.js';
 import Titular from './componentes/titular.jsx';
 import RecomendacionEnlace from './componentes/recomendacion.jsx';
 import { Bentonoti } from './componentes/bento.jsx';
-import { Proceso } from './componentes/proceso.jsx';
+import Footer from './componentes/footer.jsx';
 
 function App() {
   return (
@@ -39,7 +39,7 @@ function App() {
   informacion='Descubre los lenguajes y recursos esenciales para crear tu primer sitio web desde cero.'
 />
       <Informacion 
-  imagen="IA"
+  imagen="2"
   nombre="DESARROLLADORES DESEMPLEADOS POR IA!!"
   informacion='La Revolución de la Inteligencia Artificial en el Desarrollo de Software.
   En los últimos años, la inteligencia artificial (IA) ha transformado numerosos sectores, y el desarrollo de software no es la excepción.'
@@ -61,10 +61,12 @@ function App() {
        </article>
       </div>
 
-      <div className='proceso'>
 
- <Proceso />
-      </div>
+
+      <>
+      <Footer />
+      </>
+
       
  </>
   ); 
