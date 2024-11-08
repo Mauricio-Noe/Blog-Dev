@@ -36,9 +36,10 @@ font-size: 4ch;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
       height: 500px;
-      width: 270px;
+      width: 158px;
       gap: 3%;
       justify-content:center ;
+
     }
     .bento-left{
     display: grid;

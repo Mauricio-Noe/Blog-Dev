@@ -11,7 +11,7 @@ p{
   padding: 20px;
 }
 .body-blog{
-padding-top: 55px;
+padding-top: 35px;
 }
 /*.container-titular{
 
@@ -101,6 +101,9 @@ padding-top: 8%;}
    padding-top: 15%;
   
   }
-  
+ .footer{
+
+  padding-top: 2px;
+ }
    
 }

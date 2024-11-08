@@ -19,11 +19,13 @@ function App() {
       
        <Titular 
       nombre= 'Vulnerabilidad en las API ??? '
-      informacion='<![CDATA[Tutoriales prácticos: Desde lo básico hasta técnicas avanzadas, para ayudarte a mejorar tus habilidades. 
-        Consejos y trucos: Estrategias que he aprendido en mi carrera para optimizar tu flujo de trabajo. 
-        Novedades del sector: Actualizaciones sobre las últimas tendencias y tecnologías que no te puedes perder. 
-        Reflexiones personales: Mis experiencias y aprendizajes en el camino del desarrollo. 
-        Mi objetivo es crear una comunidad donde podamos aprender y crecer juntos. ¡Espero que disfrutes del contenido y no dudes en dejar tus comentarios y sugerencias!]]>'
+      informacion='Vulnerabilidades en las API: Riesgos y Mejores Prácticas para una Integración Segura
+
+Riesgos comunes: Las API son una poderosa herramienta, pero también pueden ser un punto de entrada para ataques si no están bien protegidas. Las vulnerabilidades comunes incluyen la falta de autenticación segura, exposición de datos sensibles y una gestión insuficiente de permisos.
+
+Consejos y prácticas de seguridad: A lo largo de mi carrera, he aprendido algunas estrategias clave para proteger las API. Esto incluye implementar autenticación robusta (como OAuth o tokens JWT), limitar las solicitudes mediante rate-limiting, y utilizar HTTPS para todas las comunicaciones.
+
+'
 
     
       />
@@ -64,7 +66,11 @@ function App() {
 
 
       <>
+      <section className='footer'>
+    
       <Footer />
+      </section>
+        
       </>
 
       
