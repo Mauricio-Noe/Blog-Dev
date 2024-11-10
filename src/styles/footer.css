@@ -1,10 +1,15 @@
-.footer {
-  background-color: #222;
-  color: #fff;
-  padding: 2em 1em;
-  text-align: center;
-}
 
+footer {
+  color: #fff;
+  text-align: center;
+  background-color: #111; /* Color de fondo del footer */
+  padding: 10px 0;
+  width: 100%;
+  bottom: 0;
+  width:100% ;
+  
+  
+}
 .footer-content {
   display: flex;
   flex-direction: column;

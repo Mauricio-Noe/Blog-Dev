@@ -43,7 +43,9 @@ const Navbar = () => {
   return (
     <section className="blog-inicio">
       <div className="navbar-blog">
+        <Link className='opc-nav' to="/">
         blog-developer
+        </Link>
       </div>
       <div className="activacion" onClick={toggleMenu}>
         &#9776;

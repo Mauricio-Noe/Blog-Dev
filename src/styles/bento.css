@@ -30,7 +30,7 @@ font-size: 4ch;
 
 }
 
-@media(max-width:758px ){
+@media(max-width:858px ){
 
   .container-bento{
     display: grid;

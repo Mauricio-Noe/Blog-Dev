@@ -1,12 +1,14 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import '../styles/recomendacion.css';
  
  
  function RecomendacionEnlace(){
- 
+ const navigate =useNavigate(); 
   const handeclick =()=>{
-window.location.assign("sssssssssssss")
-  };
+   navigate("/publicados");
+};
 
  return( 
     
@@ -26,7 +28,7 @@ window.location.assign("sssssssssssss")
         Mi objetivo es crear una comunidad donde podamos aprender y crecer juntos. ¡Espero que disfrutes del contenido y no dudes en dejar tus comentarios y sugerencias!</p>
      
                  <p className="elace-text"> </p>
-                 <a href="#" className="link-reco">Haz Click para leer la informacion</a>
+                 <Link className="link-reco" to="/publicados" >Haz Click para leer la informacion</Link>
            </div>   
  )
   };

@@ -24,6 +24,7 @@ export const Postpublic = () => {
             {login ? (
                 <div className="login-status">
                     <p>Bienvenido, estás logueado</p>
+                    <p>{setLogin} </p>
                 </div>
             ) : (
                 <div className="login-prompt">

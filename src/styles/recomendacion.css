@@ -6,7 +6,7 @@
     font-weight: bold;
   }
   .sub-text {
-    white-space:nowrap ;
+    white-space: normal ;
     text-overflow: ellipsis;
     overflow: hidden;
     padding-top: 5px;
@@ -53,8 +53,6 @@
     transform: translateY(-10px); 
   }
   @media (max-width:758px) {
-
-    @media (max-width: 758px) {
       .titulo-reco {
         font-size: 1.4em;
         padding-top: 8px;
@@ -97,4 +95,4 @@
     }
     
     
-  }
+  
