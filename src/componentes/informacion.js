@@ -1,10 +1,16 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import '../styles/informacion-props.css'; 
 
 function Informacion(props) {
+ const navigate = useNavigate();
+  const handclick=() =>{
+   navigate("/publicados");
+ };
+
      return(
  
-       <div className='container-notice'>
+       <div className='container-notice' onClick={handclick}>
       
       <div className='container-notice-text'>
         

@@ -29,17 +29,33 @@ const Navbar = () => {
 
 export default Navbar;
 */
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/Navbar.css';
 
 const Navbar = () => {
   const [isAbierta, setAbierta] = useState(false);
+  const menuref = useRef(null);
 
   const toggleMenu = () => {
     setAbierta(!isAbierta);
   };
+ useEffect(()=>{
+   const handleclickoutside= (event) => {
+  if(menuref.current && !menuref.current.contains,(event.target)){
+    setAbierta(false)
+  }
+   };
+document.addEventListener("mousedown", handleclickoutside);
 
+return ()=>{
+
+  document.removeEventListener("mousedown", handleclickoutside);
+}
+
+
+
+ },[])
   return (
     <section className="blog-inicio">
       <div className="navbar-blog">
@@ -51,10 +67,13 @@ const Navbar = () => {
         &#9776;
       </div>
 
-      <ul className={`opciones-navbar ${isAbierta ? 'active' : ''}`}>
+      <ul
+       useRef={menuref}
+      className={`opciones-navbar ${isAbierta ? 'active' : ''}`}>
         <li><Link className="opc-nav" to="/">Inicio</Link></li>
         <li><Link className="opc-nav" to="/publicados">Publicados</Link></li>
         <li><Link className="opc-nav" to="/cuenta">Cuenta</Link></li>
+        <li><Link className="opc-nav" to="/nosotros">nosotros</Link></li>
         <li><Link className="opc-nav" to="/salir">Salir</Link></li>
       </ul>
     </section>

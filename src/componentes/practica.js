@@ -10,9 +10,10 @@
 
         
     }
-/*
-                            for(let i <= 1; i>= n, i++){
-                                console.log("*".repeat(i));
 
-                            }*/
-                               
+let p = 3;
+
+for (let y = 1; y <= p; y++) {
+    console.log("*".repeat(y));
+}
+

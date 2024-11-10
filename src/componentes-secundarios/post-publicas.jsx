@@ -28,7 +28,7 @@ export const Postpublic = () => {
                 </div>
             ) : (
                 <div className="login-prompt">
-                    <p>Por favor, inicia sesión para continuar</p>
+                    <p>Por favor, inicia sesión para poder postear</p>
                 </div>
             )}
         </div>
