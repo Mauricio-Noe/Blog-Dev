@@ -1,0 +1,25 @@
+/* Estilo para la imagen */
+.logo-img {
+    width: 100%;  /* Asegura que la imagen ocupe todo el contenedor */
+    max-width: 400px;  /* Puedes ajustar el tamaño máximo */
+    border-radius: 50%;  /* Redondeo completo */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Sombra */
+    animation: scaleUp 1s ease-in-out infinite alternate;  /* Animación */
+  }
+  
+  /* Animación de escala */
+  @keyframes scaleUp {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.05);
+    }
+  }
+  
+  /* Asegúrate de tener un contenedor adecuado para la imagen */
+  .container-nostros {
+    text-align: center;
+    padding: 20px;
+  }
+  

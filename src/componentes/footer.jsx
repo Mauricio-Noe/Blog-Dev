@@ -12,7 +12,7 @@ const Footer = () => {
         <div className="footer-links">
          <Link to={"/nosotros"} > Sobre Nosotros </Link>
          <Link to={"/contacto"}>Contacto </Link>
-          <a href="#privacy">Política de Privacidad</a>
+         <Link to={"/privacidad"}>politica de privacidad</Link>
         </div>
         <div className="footer-social">
           <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
