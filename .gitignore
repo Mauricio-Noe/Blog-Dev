@@ -10,7 +10,7 @@
 
 # production
 /build
-
+.envpostjson
 # misc
 .DS_Store
 .env.local

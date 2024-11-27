@@ -90,7 +90,7 @@ import RecomendacionEnlace from './componentes/recomendacion.jsx';
 import Informacion from './componentes/informacion.js';
 import { Bentonoti } from './componentes/bento.jsx';
 import Footer from './componentes/footer.jsx';
-import { Postpublic } from './componentes-secundarios/post-publicas.jsx';
+import  {Postpublic  } from './componentes-secundarios/post-publicas.jsx';
 import { Cuenta }  from './componentes-secundarios/cuenta.jsx';
 import Salir from './componentes-secundarios/salir.jsx';
 import { Nosotros } from './componentes-secundarios/nosotros.jsx';
@@ -150,7 +150,7 @@ Consejos y prácticas de seguridad: A lo largo de mi carrera, he aprendido algun
               </article>
               </>
             } />
-            <Route path="/publicados" element={<Postpublic />} />
+            <Route path="/publicados" element={<Postpublic/> } />
             
             <Route path="/cuenta" element={<Cuenta />} />
             <Route path='/nosotros'element={<Nosotros /> }/>

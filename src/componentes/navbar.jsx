@@ -42,7 +42,7 @@ const Navbar = () => {
   };
  useEffect(()=>{
    const handleclickoutside= (event) => {
-  if(menuref.current && !menuref.current.contains,(event.target)){
+  if(menuref.current && !menuref.current.contains(event.target)){
     setAbierta(false)
   }
    };
