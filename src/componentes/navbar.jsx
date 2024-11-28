@@ -72,9 +72,8 @@ return ()=>{
       className={`opciones-navbar ${isAbierta ? 'active' : ''}`}>
         <li><Link className="opc-nav" to="/">Inicio</Link></li>
         <li><Link className="opc-nav" to="/publicados">Publicados</Link></li>
-        <li><Link className="opc-nav" to="/cuenta">Cuenta</Link></li>
+        <li><Link className="opc-nav" to="/cuenta">Contacto</Link></li>
         <li><Link className="opc-nav" to="/nosotros">nosotros</Link></li>
-        <li><Link className="opc-nav" to="/salir">Salir</Link></li>
       </ul>
     </section>
   );
