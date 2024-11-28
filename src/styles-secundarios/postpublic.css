@@ -1,8 +1,7 @@
 
 
 /* postpublic.module.css */
-.subinicio {
-    background-color: #f4f4f4;
+.container-posts {
     border-radius: 8px;
     padding: 20px;
     margin-top: 20px;
@@ -10,29 +9,30 @@
     max-width: 800px;
     margin: 0 auto;
     text-align: center;
-    color: black;
   }
   
-  .subinicio .post-content {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
   
-  .subinicio .login-status {
-    background-color: #d1e7dd;
-    color: #0f5132;
-    padding: 10px;
-    border-radius: 5px;
-    font-weight: bold;
+  .img-post{
+width: 100%;
+border-radius: 14px;
+
+
+
   }
+
+  .text-post{
   
-  .subinicio .login-prompt {
-    background-color: #f8d7da;
-    color: #721c24;
-    padding: 10px;
-    border-radius: 5px;
-    font-weight: bold;
+      font-size: 1.2em;
+      line-height: 1.4;
+      text-align: center;
+      white-space: normal; /* Permite que el texto se divida en líneas */
+      word-wrap: break-word; /* Fuerza un salto de línea si una palabra es demasiado larga */
+      max-width: 100%; /* Evita que el contenedor sea más ancho que su contenedor padre */
+      overflow: hidden; /* Asegura que nada se desborde */
+      box-sizing: border-box; /* Incluye padding en el cálculo del ancho */
+    
+    
   }
-  
+  .post-coment{
+    background-color: rgb(33, 106, 91);
+  }

@@ -40,6 +40,8 @@ export const Postpublic = () => {
 //SOLICITAMSO DATOS
 
 import React, { useEffect, useState } from "react";
+import  "..//styles-secundarios/postpublic.css"; 
+
 
 export const Postpublic = () => {
 
@@ -57,18 +59,33 @@ const [publicado, setpublicado]=useState([]);
       .catch((error) => console.error('Error:', error));
   }, []);
 
-  return(
-    <div className="">
+    return (
+      <div className="container-posts">
+        {publicado.map((item) => (
+          <div key={item.id}>
+            <h3>{item.name}</h3>
+            <img className="img-post" src={item.url} alt={item.name} />
+            <p className="text-post">{item.texto}</p>
+            <section className="post-coment"> <p>mmmmmmm</p> </section>
+          </div>
+        ))}
+      </div>
+    );
+    
+    /*<div className="">
     
     { publicado.map((item)=>(
       
     <div key={item.id}> {item.name} 
+    < img  >  {item.url} </img>
+
     <p > {item.texto} </p>
     </div> 
     
   ))}
     </div>
-);
+  );
+  */
  };
 
 

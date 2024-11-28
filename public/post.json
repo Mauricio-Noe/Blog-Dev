@@ -1,21 +1,24 @@
+{
+  "posteados": [
+    {
+      "ID": 1,
+      "name": "Los mejores consejos para empezar en el desarrollo web",
+      "url": "/img-post/informacion-desarrolloweb.jpg",
+      "texto": "Aprender desarrollo web puede parecer abrumador al principio, pero con una base sólida en HTML, CSS y JavaScript, puedes lograr grandes cosas. Al empezar, es esencial comprender cómo funcionan los lenguajes fundamentales de la web, ya que son la base de casi todas las aplicaciones y sitios que ves a diario. HTML, o Lenguaje de Marcado de Hipertexto, es el esqueleto de cualquier página web. A través de HTML, defines la estructura básica, como los encabezados, párrafos, enlaces y listas. Sin embargo, HTML por sí solo no es suficiente para crear sitios visualmente atractivos o interactivos. Es aquí donde entra CSS, o Hojas de Estilo en Cascada, que te permite diseñar y darle estilo a tus páginas web, controlando colores, tipografías, márgenes y distribución de los elementos. A medida que avanzas, aprenderás cómo usar frameworks de CSS, como Bootstrap o Tailwind CSS, para hacer que el diseño sea aún más eficiente y fácil de gestionar. Por último, JavaScript es el lenguaje que permite agregar interactividad a tu sitio. Desde simples validaciones de formularios hasta complejas aplicaciones dinámicas, JavaScript te da el poder de manipular el contenido y la estructura de una página web en tiempo real. Sin embargo, no basta con conocer los fundamentos de estos tres lenguajes; también es importante practicar regularmente. Explorar recursos como tutoriales en línea, cursos gratuitos, libros y proyectos prácticos te ayudará a ganar experiencia rápidamente. Involúcrate en la comunidad del desarrollo web, participa en foros, sigue a desarrolladores experimentados en redes sociales y busca proyectos open-source donde puedas contribuir. Además, con el tiempo, aprenderás sobre conceptos más avanzados como bases de datos, control de versiones con Git, optimización del rendimiento y la creación de aplicaciones web completas con tecnologías como Node.js, React y otros marcos de trabajo. La clave es no rendirse y continuar aprendiendo y experimentando. El desarrollo web es un campo en constante evolución, por lo que siempre habrá algo nuevo que aprender y explorar. Así que, si alguna vez te sientes abrumado, recuerda que es un proceso gradual y que cada línea de código que escribes te acerca más a tu objetivo de convertirte en un desarrollador web competente."
 
-  {
-    "posteados": [
-      {
-        "ID": 1,
-        "name": "Los mejores consejos para empezar en el desarrollo web",
-        "texto": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
-      },
-      {
-        "ID": 2,
-        "name": "Los mejores consejos para empezar en el desarrollo web",
-        "texto": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
-      },
-      {
-        "ID": 3,
-        "name": "Los mejores consejos para empezar en el desarrollo web",
-        "texto": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
-      }
-    ]
-  }
-  
+    },
+    {
+      "ID": 2,
+      "name": "Desarrolladores desempleados por IA",
+      "url": "/img-post/informacion-desarrolloweb.jpg",
+      "texto": "La inteligencia artificial está transformando el mercado laboral, pero también abre nuevas oportunidades para desarrolladores que aprendan a trabajar con herramientas de IA. Adaptarse es clave para mantenerse relevante en este panorama cambiante."
+    },
+    {
+      "ID": 3,
+      "name": "Diseño Responsivo ¿Por qué es tan importante?",
+      "url": "/img-post/informacion-desarrolloweb.jpg",
+      "texto": "El diseño responsivo asegura que los sitios web se adapten a cualquier dispositivo, ofreciendo una experiencia de usuario óptima. En un mundo donde los usuarios acceden desde móviles, tablets y desktops, es fundamental implementar esta práctica."
+    }
+  ]
+}
+
