@@ -14,7 +14,8 @@ https://blog-dev-three.vercel.app
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) 	![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)  ![Node.js](https://img.shields.io/badge/node.js-339933.svg?style=for-the-badge&logo=node.js&logoColor=white)
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 
-<p align="justify">El sitio web, construido con una combinación de <b>HTML</b>, <b>CSS</b>, <b>JavaScript</b>,<b>React</b> ofrece una interfaz de usuario rica y dinámica. Con el uso de <b>media queris</b>, garantizamos un diseño responsivo que se ve y funciona bien en una variedad de dispositivos. 
+<p align="justify">El sitio web, construido con una combinación de <b>HTML</b>, <b>CSS</b>, <b>JavaScript</b>,<b>React</b> ofrece una interfaz de usuario rica y dinámica. Con el uso de <b>media queris</b>, garantiza un diseño responsivo que se ve y funciona bien en una variedad de dispositivos. 
+También se utilizo hooks como use state, useefect, usenavigate, router, etc para facilitar y mejorar el rendimiento de del sitio 
 
 
 
